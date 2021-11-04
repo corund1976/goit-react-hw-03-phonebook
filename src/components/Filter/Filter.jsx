@@ -16,7 +16,7 @@ function Filter({ filterValue, handleFilter }) {
 };
 
 Filter.propTypes = {
-  value: PropTypes.string.isRequired,
+  filterValue: PropTypes.string.isRequired,
   handleFilter: PropTypes.func.isRequired,
 };
 

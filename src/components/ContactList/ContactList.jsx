@@ -9,7 +9,7 @@ function ContactList({ deleteContact, filteredContacts }) {
         return (
           <Contact
             key={id}
-            deleteContact={deleteContact}
+            onDeleteContact={() => deleteContact(id)}
             id={id}
             name={name}
             number={number}>
